@@ -1,10 +1,9 @@
-/* styles.css */
-
 #confetti-container {
     position: relative;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    background-color: #f0f0f0; /* Warna latar belakang */
 }
 
 .confetti {
@@ -22,4 +21,14 @@
     100% {
         transform: translateY(100vh) translateX(50vw);
     }
+}
+
+#calendar {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
