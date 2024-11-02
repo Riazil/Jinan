@@ -1,3 +1,9 @@
+/* Dark Mode Customization */
+body.dark-mode {
+  background-color: #1a202c !important; /* Dark gray */
+  color: #f7fafc !important;            /* Light gray */
+}
+
 /* Confetti Styling */
 .confetti {
   position: fixed;
@@ -14,10 +20,4 @@
     transform: translateY(100vh);
     opacity: 0;
   }
-}
-
-/* Dark Mode Customization */
-body.dark-mode {
-  background-color: #1a202c; /* Dark gray */
-  color: #f7fafc; /* Light gray */
 }
