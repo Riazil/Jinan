@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Birthday Riazil Jinan!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-pink-100 text-gray-800 font-sans transition-colors duration-300">
   <!-- Dark-Light Mode Toggle -->
-  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark-Light Mode</button>
+  <button class="fixed top-4 right-4 bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition" onclick="toggleDarkMode()">Toggle Dark-Light Mode</button>
 
-  <h1>Happy Birthday, Riazil Jinan!</h1>
-  <img src="https://pbs.twimg.com/media/EXdi6JzUMAAjmTU?format=jpg" alt="Maruko" class="maruko-image">
-  <p class="greeting">Wishing you all the happiness and fun on your special day! 🎉</p>
-  
-  <!-- Button that reveals the birthday message when clicked -->
-  <button class="button" onclick="showMessage()">See Your Birthday Message</button>
-  
-  <!-- Birthday Message -->
-  <div id="birthday-message" style="display: none;">
-    <p>We hope you keep smiling like Maruko and have a day filled with joy and laughter!</p>
+  <div class="text-center p-6 space-y-4">
+    <h1 class="text-4xl text-pink-600 font-bold">Happy Birthday, Riazil Jinan!</h1>
+    <img src="https://example.com/maruko.jpg" alt="Maruko" class="mx-auto rounded-lg w-48 md:w-64">
+
+    <p class="text-lg">Wishing you all the happiness and fun on your special day! 🎉</p>
+    
+    <!-- Button to reveal the birthday message -->
+    <button class="bg-pink-500 text-white px-6 py-2 rounded-lg hover:bg-pink-700 transition shadow-md" onclick="showMessage()">See Your Birthday Message</button>
+    
+    <!-- Birthday Message -->
+    <div id="birthday-message" class="mt-6 hidden">
+      <p class="text-lg">We hope you keep smiling like Maruko and have a day filled with joy and laughter!</p>
+    </div>
   </div>
 
   <script src="script.js"></script>
