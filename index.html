@@ -3,15 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday Jinan!</title>
+  <title>Happy Birthday Riazil Jinan!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Dark-Light Mode Toggle -->
+  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark-Light Mode</button>
+
   <h1>Happy Birthday, Riazil Jinan!</h1>
-  <img src="https://pbs.twimg.com/media/EXdi6JzUMAAjmTU?format=jpg" alt="Maruko Birthday" class="maruko-image">
+  <img src="https://pbs.twimg.com/media/EXdi6JzUMAAjmTU?format=jpg" alt="Maruko" class="maruko-image">
   <p class="greeting">Wishing you all the happiness and fun on your special day! 🎉</p>
-  <a href="#birthday-message" class="button">See Your Birthday Message</a>
-  <div id="birthday-message">
+  
+  <!-- Button that reveals the birthday message when clicked -->
+  <button class="button" onclick="showMessage()">See Your Birthday Message</button>
+  
+  <!-- Birthday Message -->
+  <div id="birthday-message" style="display: none;">
     <p>We hope you keep smiling like Maruko and have a day filled with joy and laughter!</p>
   </div>
 
