@@ -1,0 +1,25 @@
+/* styles.css */
+
+#confetti-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+    animation: fall 2s linear forwards;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+    100% {
+        transform: translateY(100vh) translateX(50vw);
+    }
+}

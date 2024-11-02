@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Ulang Tahun</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-pink-300 to-purple-300 flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg shadow-lg p-8 text-center relative overflow-hidden">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Selamat Ulang Tahun!</h1>
+        <p class="text-lg text-gray-600 mb-6">Hari ini adalah hari spesialmu, <span id="name" class="font-semibold text-pink-600"></span>!</p>
+        <button id="confetti-button" class="bg-pink-500 text-white py-2 px-4 rounded-lg hover:bg-pink-600 transition duration-300">Rayakan dengan Confetti!</button>
+        <div id="confetti-container" class="absolute inset-0 pointer-events-none"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
