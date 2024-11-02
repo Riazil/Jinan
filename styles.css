@@ -1,34 +1,40 @@
-#confetti-container {
-    position: relative;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    background-color: #f0f0f0; /* Warna latar belakang */
+body {
+  background-color: #FFF0F5;
+  color: #333;
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-.confetti {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    opacity: 0.8;
-    animation: fall 2s linear forwards;
+h1 {
+  color: #FF69B4;
 }
 
-@keyframes fall {
-    0% {
-        transform: translateY(0) translateX(0);
-    }
-    100% {
-        transform: translateY(100vh) translateX(50vw);
-    }
+.maruko-image {
+  max-width: 200px;
+  border-radius: 15px;
 }
 
-#calendar {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.greeting {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #FF69B4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #FF1493;
+}
+
+#birthday-message {
+  margin-top: 20px;
 }
